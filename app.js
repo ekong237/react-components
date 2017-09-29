@@ -142,7 +142,8 @@ ReactDOM.render(
   <GroceryList list={['cucumbers','kale', 'leafy']}/>,
   document.getElementById("app")
 );
-//                                   these are required to have keys since its expecting a key val pair for props
+
+// these are required to have keys since its expecting a key val pair for props
 // obj being passed in , is being copied into the class
 // it creates the same keys, the keys are unique to the object
 //
